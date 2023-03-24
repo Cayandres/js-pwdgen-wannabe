@@ -4,4 +4,6 @@ const favColor  = prompt('Colore Preferito?');
 
 const output = (name + " " + surname+ ' ' + favColor)
 
-document.getElementById('title').innerHTML = output;
+const message = 'I tuoi dati:' + output
+
+document.getElementById('title').innerHTML = message;
